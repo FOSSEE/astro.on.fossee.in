@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https//astro.web.fossee.in',
+	site: 'http://astro.web.fossee.in',
 	integrations: [mdx(), sitemap()],
 });
