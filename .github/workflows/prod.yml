@@ -23,8 +23,8 @@ jobs:
         uses: withastro/action@v1
       - name: Create folder
         run: |
-          mkdir -p prod_work/prod_work && cp -R dist prod_work/prod_work
-          ls prod_work/prod_work
+          mkdir -p prod_work && cp -R dist prod_work
+          ls prod_work
         # with:
           # path: ./prod_work # The root location of your Astro project inside the repository. (optional)
           # node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
