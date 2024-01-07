@@ -17,6 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: self-hosted
+    working-directory: ./dev_work
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
