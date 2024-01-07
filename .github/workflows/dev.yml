@@ -23,8 +23,8 @@ jobs:
         uses: withastro/action@v1
       - name: Create folder
         run: |
-          mkdir -p /home/github/dev && cp -R dist /home/github/dev
-          ls /home/github/dev
+          mkdir -p /home/github/astro.fossee.in/dev && cp -R dist /home/github/astro.fossee.in/dev
+          ls /home/github/astro.fossee.in/dev
         # with:
           # path: ./prod_work # The root location of your Astro project inside the repository. (optional)
           # node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
